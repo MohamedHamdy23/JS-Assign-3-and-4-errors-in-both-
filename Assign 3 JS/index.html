@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-info-subtle">
+
+    <h1 class="text-center">Bookmark Maker</h1>
+
+    <div class="container my-5">
+
+        <div class="p-3">
+
+            <label for="link-name" class="p-2 fw-bold"> <i class="fa-solid fa-book-bookmark"></i> Link Name</label>
+            <input id="link-name" type="text" class="form-control" placeholder="Link Name">
+        </div>
+
+        <div class="p-3">
+            <label for="link-address" class="p-2 fw-bold"> <i class="fa-solid fa-link"></i> Link Address</label>
+            <input type="url" id="link-address" class="form-control" placeholder="Link Address">
+        </div>
+
+        <button class="btn btn-dark d-block m-auto px-5 my-3" onclick="submitData()">Submit</button>
+
+    </div>
+
+
+    <div class="container">
+
+        <table class="table table-striped text-center">
+
+            <thead>
+
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+
+            </thead>
+
+
+            <tr id="rowData">
+
+             
+
+            </tr>
+
+       
+
+        </table>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
